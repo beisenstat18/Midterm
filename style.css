@@ -111,11 +111,46 @@ html,body{
 
 .secondcontent{ /*having the book of month not be fixed, formatting with padding and justifying center*/
   position: relative;
-  padding-top: 35vmin;
+  padding-top: 27vmin;
   display: flex;
   justify-content:center;
+  flex-direction: column;
 }
+.headerpic2{
+  display: flex;
+  justify-content: center;
+}
+.headerpic2 img{
+  width:20%;
+  height: auto;
+}
+.headerpic1 img{
+  width: 30%;
+  height: auto;
+}
+.headerpic1{
+  display: flex;
+  justify-content: center;
+}
+.info2 img{
 
+  padding-left: 60vmin;
+  padding-top: 10vmin;
+}
+.info1 {
+  display: flex;
+  justify-content: center;
+padding-left: 5vmin;
+padding-top: 20vmin;
+
+height: 40vmin;
+width: auto;
+
+}
+.topborder1 {
+  display: flex;
+  justify-content: flex-end;
+}
 .secondcontent img{ /*formatting image */
   width: 100vmin;
   height: auto;
